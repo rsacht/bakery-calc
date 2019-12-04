@@ -26,12 +26,11 @@
     "validate.js": "^0.13.1"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier-standard '**/*.{json,js}'",
-    "heroku-postbuild": "npm run build"
+    "format": "prettier-standard '**/*.{json,js}'"
   },
   "eslintConfig": {
     "extends": "react-app"
